@@ -1,0 +1,26 @@
+body {
+  background-color: #333;
+}
+
+.directory {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.directory button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #080020;
+  color: #ad38d4;
+  border: 2px solid rgb(168, 114, 235);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.directory button:hover {
+  background-color: #34fd07;
+  color: #130801;
+}
